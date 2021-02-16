@@ -1,0 +1,8 @@
+logging:
+  level:
+    ROOT: INFO
+    org.redisson: DEBUG
+    io.github.notoday.records.redisson.lua: INFO
+
+server:
+  port: 0
