@@ -1,8 +1,0 @@
-logging:
-  level:
-    ROOT: INFO
-    org.redisson: DEBUG
-    io.github.notoday.records.redisson.localcache: INFO
-
-server:
-  port: 0
