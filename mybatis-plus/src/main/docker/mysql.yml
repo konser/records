@@ -1,0 +1,13 @@
+version: "3"
+services:
+  mysql:
+    container_name: mysql
+    image: mysql:5.7
+    volumes:
+      - ~/volumes/mysql/conf:/etc/mysql/conf.d
+      - ~/volumes/mysql/data:/var/lib/mysql
+      - ~/volumes/mysql/logs:/var/log/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=changeme
+    ports:
+      - 3306:3306
